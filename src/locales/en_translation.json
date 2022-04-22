@@ -1,0 +1,13 @@
+{
+  "pages": {
+    "home": {
+      "text": "Bootstrap home page"
+    },
+    "404": {
+      "text": "404 - Page not found"
+    },
+    "example": {
+      "text": "Example page"
+    }
+  }
+}

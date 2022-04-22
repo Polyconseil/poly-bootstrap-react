@@ -1,0 +1,13 @@
+{
+  "pages": {
+    "home": {
+      "text": "Amorce page d'accueil"
+    },
+    "404": {
+      "text": "404 - Cette page n'existe pas"
+    },
+    "example": {
+      "text": "Page d'exemple"
+    }
+  }
+}

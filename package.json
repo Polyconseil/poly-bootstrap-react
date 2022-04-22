@@ -1,0 +1,53 @@
+{
+  "name": "bootstrap",
+  "version": "0.0.1",
+  "private": true,
+  "contributors": [
+    "Jean Grizet <jean.grizet@polyconseil.fr>"
+  ],
+  "scripts": {
+    "build": "webpack build --config-name build",
+    "lint": "eslint ./src/",
+    "lint:fix": "yarn lint --fix",
+    "lint:i18": "node tools/i18next/main.js -u -m --config tools/i18next/i18next-scanner.config.js",
+    "start": "webpack serve --config-name dev"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@date-io/date-fns": "^2.13.1",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.2",
+    "@mui/system": "^5.6.2",
+    "@mui/x-date-pickers": "^5.0.0-alpha.1",
+    "date-fns": "^2.28.0",
+    "i18next": "^21.6.12",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-i18next": "^11.16.7",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.5",
+    "@types/react-dom": "^18.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "argparse": "^2.0.1",
+    "copy-webpack-plugin": "^10.2.4",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.2",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "i18next-scanner": "^3.0.1",
+    "prettier": "^2.6.2",
+    "ts-loader": "9.2.8",
+    "typescript": "4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
